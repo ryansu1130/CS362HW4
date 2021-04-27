@@ -11,7 +11,7 @@ class Testcase(unittest.TestCase):
 
     def testTwo(self):
         '''TESTING LIST IS NOT EMPTY'''
-        self.assertNotEqual(average.randomList(10),[])
+        self.assertEqual(average.randomList(10),[])
 
     def testThree(self):
         '''CHECKING THAT THE LIST DOES NOT HAVE A LENGTH OF 0'''
